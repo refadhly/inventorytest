@@ -1,4 +1,4 @@
-<h2 align="center"> Sistem Informasi Inventory Menggunakan Framework Laravel 5.8</h2>
+<h2 align="center"> Sistem Informasi Inventory QAS</h2>
 
 <h4>Cara Install : </h4>
 + git clone https://github.com/revanapriyandi/laravel-inventory.git<br>
