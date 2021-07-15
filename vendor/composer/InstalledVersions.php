@@ -27,12 +27,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '8553f2bf66be26fb8dce0464559ff9b9fe35f020',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -161,12 +161,12 @@ private static $installed = array (
     ),
     'filp/whoops' => 
     array (
-      'pretty_version' => '2.12.1',
-      'version' => '2.12.1.0',
+      'pretty_version' => '2.13.0',
+      'version' => '2.13.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'c13c0be93cff50f88bbd70827d993026821914dd',
+      'reference' => '2edbc73a4687d9085c8f20f398eebade844e8424',
     ),
     'fzaninotto/faker' => 
     array (
@@ -454,12 +454,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '8553f2bf66be26fb8dce0464559ff9b9fe35f020',
     ),
     'laravel/nexmo-notification-channel' => 
     array (
@@ -508,12 +508,12 @@ private static $installed = array (
     ),
     'league/flysystem' => 
     array (
-      'pretty_version' => '1.1.3',
-      'version' => '1.1.3.0',
+      'pretty_version' => '1.1.4',
+      'version' => '1.1.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9be3b16c877d477357c015cec057548cf9b2a14a',
+      'reference' => 'f3ad69181b8afed2c9edf7be5a2918144ff4ea32',
     ),
     'league/mime-type-detection' => 
     array (
@@ -593,12 +593,12 @@ private static $installed = array (
     ),
     'myclabs/php-enum' => 
     array (
-      'pretty_version' => '1.8.0',
-      'version' => '1.8.0.0',
+      'pretty_version' => '1.8.3',
+      'version' => '1.8.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '46cf3d8498b095bd33727b13fd5707263af99421',
+      'reference' => 'b942d263c641ddb5190929ff840c68f78713e937',
     ),
     'nesbot/carbon' => 
     array (
@@ -629,12 +629,12 @@ private static $installed = array (
     ),
     'nikic/php-parser' => 
     array (
-      'pretty_version' => 'v4.10.5',
-      'version' => '4.10.5.0',
+      'pretty_version' => 'v4.11.0',
+      'version' => '4.11.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '4432ba399e47c66624bc73c8c0f811e5c109576f',
+      'reference' => 'fe14cf3672a149364fb66dfe11bf6549af899f94',
     ),
     'nunomaduro/collision' => 
     array (
@@ -909,8 +909,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
@@ -1075,12 +1075,12 @@ private static $installed = array (
     ),
     'symfony/console' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a62acecdf5b50e314a4f305cd01b5282126f3095',
+      'reference' => '9aa1eb46c1b12fada74dc0c529e93d1ccef22576',
     ),
     'symfony/css-selector' => 
     array (
@@ -1111,12 +1111,12 @@ private static $installed = array (
     ),
     'symfony/error-handler' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => '310a756cec00d29d89a08518405aded046a54a8b',
+      'reference' => '4001f01153d0eb5496fe11d8c76d1e56b47fdb88',
     ),
     'symfony/event-dispatcher' => 
     array (
@@ -1163,30 +1163,30 @@ private static $installed = array (
     ),
     'symfony/http-foundation' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0c79d5a65ace4fe66e49702658c024a419d2438b',
+      'reference' => '8759ed5c27c2a8a47cb60f367f4be6727f08d58b',
     ),
     'symfony/http-kernel' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => '3795165596fe81a52296b78c9aae938d434069cc',
+      'reference' => 'e08b2fb8a6eedd81c70522e514bad9b2c1fff881',
     ),
     'symfony/mime' => 
     array (
-      'pretty_version' => 'v5.3.0',
-      'version' => '5.3.0.0',
+      'pretty_version' => 'v5.3.2',
+      'version' => '5.3.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ed710d297b181f6a7194d8172c9c2423d58e4852',
+      'reference' => '47dd7912152b82d0d4c8d9040dbc93d6232d472a',
     ),
     'symfony/polyfill-ctype' => 
     array (
@@ -1262,12 +1262,12 @@ private static $installed = array (
     ),
     'symfony/process' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'cd61e6dd273975c6625316de9d141ebd197f93c9',
+      'reference' => '7e812c84c3f2dba173d311de6e510edf701685a8',
     ),
     'symfony/routing' => 
     array (
@@ -1289,12 +1289,12 @@ private static $installed = array (
     ),
     'symfony/translation' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'dfe132c5c6d89f90ce7f961742cc532e9ca16dd4',
+      'reference' => '2f7fa60b8d10ca71c30dc46b0870143183a8f131',
     ),
     'symfony/translation-contracts' => 
     array (
@@ -1314,12 +1314,12 @@ private static $installed = array (
     ),
     'symfony/var-dumper' => 
     array (
-      'pretty_version' => 'v4.4.25',
-      'version' => '4.4.25.0',
+      'pretty_version' => 'v4.4.26',
+      'version' => '4.4.26.0',
       'aliases' => 
       array (
       ),
-      'reference' => '31ea689a8e7d2410016b0d25fc15a1ba05a6e2e0',
+      'reference' => 'a586efdf2aa832d05b9249e9115d24f6a2691160',
     ),
     'theseer/tokenizer' => 
     array (

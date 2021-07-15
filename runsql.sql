@@ -1,0 +1,14 @@
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE `inventory`.`users` ; 
+TRUNCATE TABLE `inventory`.`categories` ; 
+TRUNCATE TABLE `inventory`.`products` ; 
+TRUNCATE TABLE `inventory`.`customers` ; 
+INSERT INTO `inventory`.`users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`, `role`) VALUES ('1', 'admin', 'admin@gmail.com', '$2y$10$9a7b78YWmpUO1yS3Q2CeMOuWvemjp4Q13q52ykg5alI/f9NrICqB.', '$2y$10$9a7b78YWmpUO1yS3Q2CeMOuWvemjp4Q13q52ykg5alI/f9NrICqB.', '2021-07-09 14:31:46', '2021-07-09 14:31:50', 'admin');
+INSERT INTO `inventory`.`users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`, `role`) VALUES ('2', 'fadli', 'fadli@gmail.com', '$2y$10$VmSQZhyJvYcDbWM/9JR4T.hCTvpRJj4Bk1L/qEtuhCu/MwJJS8g2y', '$2y$10$VmSQZhyJvYcDbWM/9JR4T.hCTvpRJj4Bk1L/qEtuhCu/MwJJS8g2y', '2021-07-09 07:32:49', '2021-07-09 07:32:49', 'admin');
+INSERT INTO `inventory`.`categories` (`id`, `name`, `created_at`, `updated_at`) VALUES ('1', 'testing', '2021-07-09 08:15:33', '2021-07-09 08:15:33');
+INSERT INTO `inventory`.`products` (`id`, `category_id`, `nama`, `harga`, `image`, `qty`, `created_at`, `updated_at`) VALUES ('1', '1', 'test', '10000', '/upload/products/test.png', '1000', '2021-07-09 08:16:03', '2021-07-09 08:16:03');
+INSERT INTO `inventory`.`customers` (`id`, `nama`, `alamat`, `email`, `telepon`, `created_at`, `updated_at`) VALUES ('1', 'PT. PASTI OKE', 'JL OKE OKE AJA', 'oke@gmail.com', '08123456789', '2021-07-09 08:17:26', '2021-07-09 08:17:26');
+INSERT INTO `inventory`.`customers` (`id`, `nama`, `alamat`, `email`, `telepon`, `created_at`, `updated_at`) VALUES ('2', 'PT. KITA BISA', 'JL. KITA BISA', 'bisa@gmail.com', '0812345789', '2021-07-09 08:17:54', '2021-07-09 08:17:54');
+INSERT INTO `inventory`.`customers` (`id`, `nama`, `alamat`, `email`, `telepon`, `created_at`, `updated_at`) VALUES ('3', 'PT. NANTI AJA', 'JL. NANTIAN', 'nanti@gmail.com', '0812321741242', '2021-07-09 08:18:21', '2021-07-09 08:18:21');
+INSERT INTO `inventory`.`customers` (`id`, `nama`, `alamat`, `email`, `telepon`, `created_at`, `updated_at`) VALUES ('4', 'PT. PANTANG MENYERAH', 'JL. PANTANG', 'pantang@gmail.com', '0823487342734', '2021-07-09 08:18:52', '2021-07-09 08:18:52');
+INSERT INTO `inventory`.`customers` (`id`, `nama`, `alamat`, `email`, `telepon`, `created_at`, `updated_at`) VALUES ('5', 'PT. LALU JAYA', 'JL. JAYA', 'jaya@gmail.com', '093849583945834', '2021-07-09 08:19:33', '2021-07-09 08:19:33');
